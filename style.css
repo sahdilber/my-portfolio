@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -7,18 +7,15 @@
 
 body{
     font-family: 'Crimson Text', serif;
+    margin: 0px;
     
-    margin: 20px;
-    height: 100vh;
-    overflow: hidden;
 }
+
   
 section{
     background:url("images/bg-image.png") no-repeat center center/cover;
     color:#fff;
     position: absolute;
-    top: -30px;
-    left: -30px;
     width: calc(100vw + 60px);
     height: calc(100vh + 60px);
 }
@@ -56,17 +53,39 @@ section{
     align-items: center;
 }
 
-a{
+.link{
 	color: black; 
     background-color: #fff;
     border-radius:50px ;
 }
 
-a:hover {
+.link:hover{
     color: #fff;
     background-color: black;
     
 }
-a:active{
+.link:active{
     transform: scale(0.94);
 }
+
+
+nav ul{
+   
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    list-style: none; 
+}
+
+nav ul li, a:active ,a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:focus, a:hover {
+    color: #454545;
+}
+
+
