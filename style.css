@@ -16,18 +16,20 @@ section{
     background:url("images/bg-image.png") no-repeat center center/cover;
     color:#fff;
     position: absolute;
-    width: calc(100vw + 60px);
+    width:100%;
     height: calc(100vh + 60px);
 }
 
 .head { 
+   
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    top: 300px;  
+    top :200px;
+      
 }
 
 .head h1{
@@ -36,7 +38,6 @@ section{
 }
 
 .head p {
-    
     font-size: 40px;
 }
 .head .icon{
@@ -70,21 +71,20 @@ section{
 
 
 nav ul{
-   
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     text-align: center;
     list-style: none; 
 }
 
-nav ul li, a:active ,a{
+nav ul li , a{
     color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:focus, a:hover {
+nav ul li a:focus, a:hover ,a:active {
     color: #454545;
 }
 
