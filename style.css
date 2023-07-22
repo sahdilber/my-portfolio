@@ -8,7 +8,6 @@
 body{
     font-family: 'Crimson Text', serif;
     margin: 0px;
-    
 }
 
   
@@ -29,7 +28,6 @@ section{
     justify-content: center;
     overflow: hidden;
     top :200px;
-      
 }
 
 .head h1{
@@ -90,5 +88,12 @@ nav ul li , a{
 nav ul li a:focus, a:hover ,a:active {
     color: #454545;
 }
+
+
+.text{
+    width: 500px;
+}
+
+
 
 
